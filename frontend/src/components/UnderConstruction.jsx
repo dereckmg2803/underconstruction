@@ -65,9 +65,13 @@ const UnderConstruction = () => {
             className="flex justify-center mb-8"
           >
             <img
-              src="/logo.png"
+              src="/logo.svg"
               alt="De Leon Rehab Logo"
               className="h-20 w-auto object-contain"
+              onError={(e) => {
+                // Fallback to PNG if SVG fails
+                e.target.src = "/logo.png";
+              }}
             />
           </motion.div>
 
