@@ -103,20 +103,32 @@ const UnderConstruction = () => {
             variants={itemVariants}
             className="text-lg sm:text-xl text-gray-600 text-center mb-6 leading-relaxed"
           >
-            Estamos trabajando en algo increíble para ti. Nuestro sitio web estará disponible muy pronto.
+            We are working on something incredible for you. Our website will be available very soon.
           </motion.p>
 
-          {/* Message */}
+          {/* Message
           <motion.div
             variants={itemVariants}
             className="bg-gradient-to-r from-cyan-50 to-teal-50 rounded-xl p-6 mb-8 border border-cyan-200"
           >
             <p className="text-gray-700 text-center">
-              En <span className="font-semibold text-teal-700">De Leon Rehab</span>, nos dedicamos a brindarte el mejor servicio. Mientras tanto, síguenos en nuestras redes sociales para mantenerte al día con nuestras novedades.
+              At <span className="font-semibold text-teal-700">De Leon Rehab</span>, we are dedicated to providing the best service.
             </p>
           </motion.div>
-
-          {/* Progress Indicator */}
+          */}
+          <motion.div
+            variants={itemVariants}
+            className="bg-gradient-to-r from-cyan-50 to-teal-50 rounded-xl p-6 mb-8 border border-cyan-200"
+          >
+            <p className="text-gray-700 text-center">
+              <a
+                href="mailto:financial@deleonrehab.com"
+                className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium transition-colors duration-200"
+              ><span className="font-semibold text-teal-700">Join Our Team: Doctors of Physical Therapy (DPT)</span></a>.
+              Send your application and become part of a supportive and skilled team dedicated to excellence in patient rehabilitation at De Leon Rehab.
+            </p>
+          </motion.div>
+          {/* Progress Indicator
           <motion.div
             variants={itemVariants}
             className="mb-8"
@@ -134,8 +146,8 @@ const UnderConstruction = () => {
               />
             </div>
           </motion.div>
-
-          {/* Social Media Links */}
+ */}
+          {/* Social Media Links 
           <motion.div
             variants={itemVariants}
             className="border-t border-gray-200 pt-8"
@@ -163,19 +175,19 @@ const UnderConstruction = () => {
               })}
             </div>
           </motion.div>
-
+*/}
           {/* Contact Info */}
           <motion.div
             variants={itemVariants}
             className="mt-8 text-center"
           >
-            <p className="text-sm text-gray-600 mb-2">¿Tienes alguna pregunta?</p>
+            <p className="text-sm text-gray-600 mb-2">Do you have any questions?</p>
             <a
-              href="mailto:info@deleonrehab.com"
+              href="mailto:financial@deleonrehab.com"
               className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium transition-colors duration-200"
             >
               <Mail className="w-4 h-4" />
-              info@deleonrehab.com
+              financial@deleonrehab.com
             </a>
           </motion.div>
         </motion.div>
@@ -185,7 +197,7 @@ const UnderConstruction = () => {
           variants={itemVariants}
           className="text-center text-sm text-gray-500 mt-6"
         >
-          © 2025 De Leon Rehab. Todos los derechos reservados.
+          © 2025 De Leon Rehab. All rights reserved.
         </motion.p>
       </motion.div>
     </div>
